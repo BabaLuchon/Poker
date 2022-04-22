@@ -1,0 +1,74 @@
+body {
+    background-color: forestgreen;
+}
+
+
+
+.River,
+.Donne {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.D {
+    width: 5%;
+    height: 100px;
+    margin-right: 100px;
+}
+
+.D :hover {
+    border: solid red;
+}
+
+
+.R1,
+.R2,
+.R3,
+.R4,
+.R5 {
+    width: 5%;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.R4,
+.R5,
+.B1,
+.B2,
+.B3 {
+    visibility: hidden;
+}
+
+.B1{
+    margin-left: 100px;
+}
+
+.Z1,
+.Z2,
+.Z3,
+.Z4,
+.Z5 {
+    width: 10%;
+    height: 100px;
+    text-align: center;
+    margin-left: 100px;
+    border-top: solid yellow;
+}
+.Z1 :hover,
+.Z2 :hover,
+.Z3 :hover,
+.Z4 :hover,
+.Z5 :hover {
+    color :red
+}
+
+
+p {
+    color: yellow;
+    font-size: xx-large;
+}
+
+.carte {
+    height: 100%;
+}
